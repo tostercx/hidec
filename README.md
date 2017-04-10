@@ -3,7 +3,7 @@
 Run hidden console windows. The original author for the source is not known.
 
 ### Usage:
-hidec [/w] <filename>
+hidec [/w] \<filename>
 
 ### Where:
 - /w - wait for program termination
