@@ -1,0 +1,7 @@
+version: 0.0.1.{build}
+shallow_clone: true
+
+build_script:
+  - '"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\vcvarsall" x86'
+  - cl hidec.c /Zl /Gy
+  - appveyor PushArtifact hidec.exe
